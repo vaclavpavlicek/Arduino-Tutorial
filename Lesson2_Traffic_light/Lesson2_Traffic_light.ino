@@ -23,5 +23,8 @@ int greenLed = 9;
     digitalWrite(greenLed,HIGH);   
     delay(1000); 
     digitalWrite(greenLed,LOW);
+    digitalWrite(yellowLed,HIGH);    
+    delay(1000);
+    digitalWrite(yellowLed,LOW);
     
   }
