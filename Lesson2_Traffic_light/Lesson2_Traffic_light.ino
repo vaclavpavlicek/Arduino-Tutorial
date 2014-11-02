@@ -14,11 +14,14 @@ int greenLed = 9;
   
     digitalWrite(redLed,HIGH);    
     delay(1000);
+    digitalWrite(yellowLed,HIGH);    
+    delay(500);
     digitalWrite(redLed,LOW);
     digitalWrite(yellowLed,HIGH);    
     delay(1000);
     digitalWrite(yellowLed,LOW);
-    digitalWrite(greenLed,HIGH);    
-    delay(1000);
-    digitalWrite(greenLed,LOW);    
+    digitalWrite(greenLed,HIGH);   
+    delay(1000); 
+    digitalWrite(greenLed,LOW);
+    
   }
