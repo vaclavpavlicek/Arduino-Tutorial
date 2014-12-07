@@ -1,5 +1,5 @@
 int buttonPin = 2;
-int ledPin =  8;
+int ledPin =  12;
 
 int buttonState = 0;
 
