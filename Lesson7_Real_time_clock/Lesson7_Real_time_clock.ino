@@ -4,7 +4,7 @@
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);           
-// vytvoří pole čísel do kterých se bude ukládat čas
+
 int rtc[7];
  
 void setup()
