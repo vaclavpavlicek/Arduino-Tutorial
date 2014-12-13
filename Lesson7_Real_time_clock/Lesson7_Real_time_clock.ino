@@ -7,12 +7,10 @@ LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
 int rtc[7];
  
-void setup()
-{    
+void setup(){    
   lcd.begin(16, 2);
 }
-void loop()
-{
+void loop(){  
   RTC.get(rtc,true);  
   char cas[9];  
   sprintf(cas, "%02d:%02d:%02d", rtc[2],rtc[1],rtc[0]);  
